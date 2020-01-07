@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+/*Grid*/
+.app {
+  display: grid;
+  grid-template-rows: 200px 1fr 50px;
+  .header {
+    grid-row: ~'1/2';
+  }
+  .body {
+    grid-row: ~'2/3';
+  }
+  .footer {
+    grid-row: ~'3/4';
+  }
+}
+/*Style*/
+.app {
+  height: 800px;
+  // background: yellow;
+  .header {
+    background-color: blue;
+  }
+  .body {
+
+  }
+  .footer {
+
+  }
+}
+
+

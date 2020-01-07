@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
+import NavBar from './components/NavBar'
+import Body from '../modules/components/Body'
+import Footer from '../modules/components/Footer'
 
-export class App extends Component {
-  render() {
-    return (
-      <div>
-          <h1>My Chat app</h1>
-      </div>
-    )
-  }
+const App = () => {
+  return (
+    <div className="app">
+       <NavBar />
+       <Body />
+       <Footer />
+    </div>
+  )
 }
-
+  
 export default App
